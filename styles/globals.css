@@ -13,3 +13,6 @@
   background-color: white;
 }
 
+body {
+  overflow-x: hidden;
+}

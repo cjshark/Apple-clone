@@ -34,9 +34,9 @@ const Home = () => {
           </div>
           <img src="./images/Apple-Watch-Series.png" alt="" />
         </div>
-        <div className="grid lg:grid-cols-2 grid-cols-1 mt-4 place-items-center mb-4 px-4">
+        <div className="grid lg:grid-cols-2 grid-cols-1 mt-4 place-items-center mb-4 px-4 gap-y-4 lg:gap-x-4">
           <div className="h-[80vh] w-[105vh] bg-gradient-to-t from-gray-200 to-blue-200 ">
-            <div className=" flex flex-col items-center w-full h-full my-10">
+            <div className=" flex flex-col items-center w-full h-full my-10 ">
               <div className="flex justify-center items-center ">
                 <FaApple className="text-6xl text-gray-800" />
                 <h1 className="text-4xl text-black font-bold">Macbook Air</h1>
@@ -57,7 +57,7 @@ const Home = () => {
               <img className="h-70 mt-6" src="/images/Mcbook-pro.png" alt="" />
             </div>
           </div>
-          <div className="h-[80vh] w-[105vh] bg-gray-200">
+          <div className="h-[80vh] w-[105vh] bg-gray-200 ">
             <div className="flex flex-col space-y-3 justify-center items-center">
               <div className="flex justify-center items-center mt-10">
                 <FaApple className="text-6xl text-gray-800" />
@@ -75,7 +75,7 @@ const Home = () => {
               <img src="./images/Mac-does-that.png" alt="Apple" />
             </div>
           </div>
-          <div className="h-[80vh] w-[105vh] bg-gradient-to-b from-gray-100 to-blue-300 mt-4 mb-4">
+          <div className="h-[80vh] w-[105vh] bg-gradient-to-b from-gray-100 to-blue-300 ">
             <div className="flex flex-col justify-center items-center my-10">
               <div className="flex justify-center items-center  space-x-2">
                 <FaApple className="text-6xl text-gray-800" />
